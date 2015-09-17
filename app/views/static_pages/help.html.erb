@@ -1,2 +1,13 @@
-<h1>StaticPages#help</h1>
-<p>Find me in app/views/static_pages/help.html.erb</p>
+<% provide(:title, "Help") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= yield(:title) %> | Ventapp</title>
+  </head>
+  <body>
+    <h1>Seeking Help?</h1>
+    <h3>Currently there is no help to be found anywhere. I'll keep looking for
+    someone as opporunity allows.</h3>
+  </body>
+</html>
